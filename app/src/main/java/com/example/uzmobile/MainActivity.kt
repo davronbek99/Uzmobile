@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
             R.id.telegram_id -> {
                 val telegram =
                     Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/DavronbekShergoziev"))
-                telegram.setPackage("org.telegram.messenger")
+//                telegram.setPackage("org.telegram.messenger")
                 startActivity(telegram)
             }
             R.id.share_id -> {
