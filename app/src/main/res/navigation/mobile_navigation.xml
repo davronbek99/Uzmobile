@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.uzmobile.ui.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.uzmobile.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/bannerFragment"
+        android:name="com.example.uzmobile.BannerFragment"
+        android:label="fragment_banner"
+        tools:layout="@layout/fragment_banner" />
+    <fragment
+        android:id="@+id/internetPaketsFragment"
+        android:name="com.example.uzmobile.InternetPaketsFragment"
+        android:label="Internet"
+        tools:layout="@layout/fragment_internet_pakets" />
+    <fragment
+        android:id="@+id/internetViewPagerFragment"
+        android:name="com.example.uzmobile.InternetViewPagerFragment"
+        android:label="fragment_internet_view_pager"
+        tools:layout="@layout/fragment_internet_view_pager" />
+    <fragment
+        android:id="@+id/smsPaketsFragment"
+        android:name="com.example.uzmobile.SmsPaketsFragment"
+        android:label="SMS"
+        tools:layout="@layout/fragment_sms_pakets" />
+    <fragment
+        android:id="@+id/smsViewPagerFragment"
+        android:name="com.example.uzmobile.SmsViewPagerFragment"
+        android:label="fragment_sms_view_pager"
+        tools:layout="@layout/fragment_sms_view_pager" />
+    <fragment
+        android:id="@+id/operatorFragment"
+        android:name="com.example.uzmobile.OperatorFragment"
+        android:label="Operator bilan bog'lanish"
+        tools:layout="@layout/fragment_operator" />
+    <fragment
+        android:id="@+id/ussdFragment"
+        android:name="com.example.uzmobile.UssdFragment"
+        android:label="USSD"
+        tools:layout="@layout/fragment_ussd" />
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="com.example.uzmobile.TarifFragment"
+        android:label="Tariflar"
+        tools:layout="@layout/fragment_tarif" />
+    <fragment
+        android:id="@+id/tarifInfoFragment"
+        android:name="com.example.uzmobile.TarifInfoFragment"
+        android:label="fragment_tarif_info"
+        tools:layout="@layout/fragment_tarif_info" />
+    <fragment
+        android:id="@+id/xizmatlarFragment"
+        android:name="com.example.uzmobile.XizmatlarFragment"
+        android:label="Xizmatlar"
+        tools:layout="@layout/fragment_xizmatlar" />
+    <fragment
+        android:id="@+id/xizmatlarViewPagerFragment"
+        android:name="com.example.uzmobile.XizmatlarViewPagerFragment"
+        android:label="fragment_xizmatlar_view_pager"
+        tools:layout="@layout/fragment_xizmatlar_view_pager" />
+    <fragment
+        android:id="@+id/daqiqaFragment"
+        android:name="com.example.uzmobile.DaqiqaFragment"
+        android:label="Daqiqa"
+        tools:layout="@layout/fragment_daqiqa" />
+</navigation>

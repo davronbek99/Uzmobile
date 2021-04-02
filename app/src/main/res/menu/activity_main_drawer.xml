@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/telegram_icon"
+            android:title="Telegram kanal" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="Biz bilan aloqa" />
+        <item
+            android:id="@+id/share_dialog"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Ulashish" />
+        <item
+            android:id="@+id/baholash"
+            android:icon="@drawable/ic_baseline_stars_24"
+            android:title="Baholash" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Biz haqimizda" />
+    </group>
+</menu>

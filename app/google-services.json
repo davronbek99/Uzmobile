@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1013773203853",
+    "firebase_url": "https://uzmobile-2a90c.firebaseio.com",
+    "project_id": "uzmobile-2a90c",
+    "storage_bucket": "uzmobile-2a90c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013773203853:android:f0f0feadee8d948c1425c4",
+        "android_client_info": {
+          "package_name": "com.example.uzmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013773203853-bjtefuiusbg8dttlnkhu2vjif3gsrgd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPdaIFYgBIxDqgj3_Mmhf1C1CkPVGSXh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013773203853-bjtefuiusbg8dttlnkhu2vjif3gsrgd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="balans">Balans</string>
+    <string name="ussd">USSD</string>
+    <string name="tarif">Ta\'rif</string>
+    <string name="app_name">Uzmobile</string>
+</resources>

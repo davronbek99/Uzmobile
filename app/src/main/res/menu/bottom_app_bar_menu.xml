@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/balans_id"
+        android:icon="@drawable/balans_icon"
+        android:title="@string/balans"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/operator_id"
+        android:icon="@drawable/operator_icon"
+        android:title="Operator"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/home_id"
+        android:icon="@drawable/home_icon"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/news_id"
+        android:icon="@drawable/news_icon"
+        android:title="Yangiliklar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings_id"
+        android:icon="@drawable/settings_icon"
+        android:title="Sozlamalar"
+        app:showAsAction="always" />
+</menu>

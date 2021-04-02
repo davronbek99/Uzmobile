@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="balans">Баланс</string>
+    <string name="ussd">УССД</string>
+    <string name="tarif">Таьриф</string>
+</resources>
